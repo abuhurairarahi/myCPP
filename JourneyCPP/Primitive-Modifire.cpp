@@ -25,9 +25,9 @@ int main()
     | -------------- | -------------------------------------------------------------- |
     | `signed`       | Allows both positive and negative integer values               |
     | `unsigned`     | Allows only positive integer values (increases positive range) |
-    | `short`        | Reduces size of 'integer' type                                   |
-    | `long`         | Increases size of 'integer' type                                 |
-    | `long long`    | Provides very large 'integer' range                              |
+    | `short`        | Reduces size of 'integer' type                                 |
+    | `long`         | Increases size of 'integer' type                               |
+    | `long long`    | Provides very large 'integer' range                            |
     | `const`        | Prevents value modification                                    |
     | `volatile`     | Tells compiler value may change unexpectedly                   |
     | `mutable`      | Allows modification of class member inside const object        |
