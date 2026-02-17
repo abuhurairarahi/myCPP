@@ -54,6 +54,6 @@ int main()
     long double DoubleNumber = 9.345;
     unsigned short int ShortNumber = -10; //here we check with negative value 
     
-    std::cout << UID << " - " << DoubleNumber << " - Using Negative Value: " << ShortNumber << std::endl;
+    std::cout << UID << " - " << DoubleNumber << "\nUsing Negative Value: " << ShortNumber << std::endl;
     return 0;
 }
