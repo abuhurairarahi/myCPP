@@ -20,4 +20,8 @@ int main()
     std::cout << UserName << " from " << UserCountry << "\n" << std::endl;
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 367abfa (push correct folder structure)
