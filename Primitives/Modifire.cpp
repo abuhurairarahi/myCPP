@@ -47,6 +47,8 @@ int main()
 
     //"const" identifies the constant; which is fixed & non-changable.
 
+    std::cout << "--- Printing all types of data with modifires ---\n" << std::endl;
+
     cout << "Age Limit: " << AgeLimit << " years\n";
     cout << "Loan Balance: " << LoanBalance << " taka\n" << "Paid Balance: " << PaidBalance << " taka\n" << endl;
     cout << "--- Car Shipping Details ---\n" << endl;

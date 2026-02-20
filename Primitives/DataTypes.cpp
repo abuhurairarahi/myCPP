@@ -24,6 +24,8 @@ int main()
 
     //"bool" writen with true/false; again 0 = false, 1 or "any positive int" = true; any char = true;
 
+    std::cout << "--- Printing all types of data ---\n" << std::endl;
+
     std::cout << "Boolean Data: " << BooleanData << std::endl;
     
     //as we didn't use the command "using namespace std;" have to write all standard commands in this manner std::(required syntax)
