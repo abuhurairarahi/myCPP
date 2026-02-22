@@ -5,6 +5,13 @@ using namespace std;
 
 int main()
 {
+    /*
+    
+    break: where the command is applied it exits from that spacific block, which is executing.
+    And immediately stops the execution of the block.
+    
+    */
+  
     string cups;
 
     while(true)
