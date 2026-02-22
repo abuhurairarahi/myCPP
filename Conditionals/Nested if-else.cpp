@@ -99,6 +99,8 @@ int main()
     else if(sign == "%")
     {
         if(typeid(variableOne) == typeid(double) || typeid(variableTwo) == typeid(double))
+        //"typeid" tells the user the actual datatype of a variable.
+        //"typeid(varibleName).name()" by using can access the variable's datatype name e.g. int -> i, double -> d, float -> f;
         {
             cout << "Can not operate mod operation with float value" << endl;
 
@@ -120,6 +122,9 @@ int main()
     else
     {
         cout << "Ivalid Input" << endl;
+
+        //printing the datatype name of variableOne
+        cout << typeid(variableOne).name() << endl;
     }
     
 
