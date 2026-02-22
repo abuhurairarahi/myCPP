@@ -9,7 +9,7 @@ int main()
     #Structure: 
     do
     {
-       //code body ---> in this type of loop, this particular block runs for once, even when the condition is false.
+       //code body ---> this particular block runs for once, even when the condition is false.
        increment/decrement;
     }
     while(condition);
