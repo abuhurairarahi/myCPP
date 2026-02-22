@@ -1,0 +1,5 @@
+ICS
+SPL
+OOP
+SOC
+DSA
