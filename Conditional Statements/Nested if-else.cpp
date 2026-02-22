@@ -100,7 +100,7 @@ int main()
     {
         if(typeid(variableOne) == typeid(double) || typeid(variableTwo) == typeid(double))
         {
-            cout << "Can operate mod operation with float value" << endl;
+            cout << "Can not operate mod operation with float value" << endl;
 
             cout << "want to continue with type casting: Yes/No" << endl;
             string choiceAgain;
