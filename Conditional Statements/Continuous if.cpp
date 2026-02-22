@@ -7,7 +7,7 @@ int main()
     /*
     
     Continuous if: While a program needs to check every single conditions, then we've to use "continuous if", lastly to exit
-    the conditional block have to use an "else" statement. 
+    the conditional block have to use an "else" statement. Also known as "Nested if".
     
     #Structure:
 
