@@ -81,5 +81,35 @@ int main()
     
     */
 
+
+
+    //reallocation: resizing the array.
+    //Structure: arrayName = (type-casting)realloc(nameArray, (PreviousSize + NewSize)*sizeof(data-type));
+    cout << "\n\nReallocating..." << endl; 
+
+
+    dynamicArray = (int*)realloc(dynamicArray, (N+2) * sizeof(int));
+
+
+    //executing input & output
+
+    //#Attention: this time, array runs "N to (N+2)-1"
+
+    for(int i = N; i < N+2; i++)
+    {
+        //taking input
+        cout << "Enter element for index " << i << " : ";
+
+        cin >> *(dynamicArray + i);
+    }
+
+    //getting output
+    cout << "\nEntire Array: ";
+
+    for(int i = 0; i < N+2; i++)
+    {
+        cout << *(dynamicArray + i) << " ";
+    }
+
     return 0;
 }
