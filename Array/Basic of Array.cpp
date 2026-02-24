@@ -12,13 +12,13 @@ int main()
 
     */
 
-    //Array Initialization (Type-01)
+    // -- Array Initialization (Type-01) --
     //before using an array it must be initialized with size.
 
     int integerArrayOne[5];
 
 
-    //Array Initialization (Type-02)
+    // -- Array Initialization (Type-02) --
 
     int integerArrayTwo[] = {10, 20, 30, 40};
 
@@ -28,7 +28,8 @@ int main()
     cout << integerArrayTwo[1] << endl;    //"integerArrayTwo[1]" means the element of the 1st index
 
 
-    //Array input (Type-01)
+
+    // -- Array input (Type-01) --
 
     //We can individually give input in the array: "index by index"
 
@@ -42,7 +43,8 @@ int main()
     //Array runs from index: 0 to index: (n-1); 
 
 
-    //Array input (Type-02)
+
+    // -- Array input (Type-02) --
 
     //using a loop we can directly input the array
 
@@ -62,7 +64,8 @@ int main()
     cout << "\n";
 
 
-    //Printing outputs
+
+    // -- Printing outputs --
 
     //like we take array input usign loop; if we just simply replace the "input" comand with the "output"
     //can print the all array elements sequentially. 
