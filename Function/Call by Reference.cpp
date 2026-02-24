@@ -2,9 +2,12 @@
 
 using namespace std;
 
-void callbyReference(int* Address)
+void callbyReference(int* Parameter) //function receives the address passing as argument
 {
-    *Address += 10;
+    *Parameter += 10;
+
+    // here the Parameter and Argument belong from the same memory address [Parameter == Argument] 
+    // here if we done any changes with Parameter the same change will happen with ArgumentVariable.
 }
 
 int main()
@@ -21,7 +24,7 @@ int main()
 
     */
 
-    callbyReference(&varValue);
+    callbyReference(&varValue); // here we pass the memory address.
 
     cout << "Printing the varValue after passing the Reference: " << varValue << endl;
 
