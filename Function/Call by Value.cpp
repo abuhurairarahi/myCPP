@@ -21,8 +21,10 @@ int main()
     the original variable.
     
     */
+    
 
     cout << "Variable --> value in the main() function: " << Variable << endl;
 
     return 0;
 }
+
