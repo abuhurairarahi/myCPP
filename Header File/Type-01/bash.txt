@@ -7,7 +7,7 @@ interpret: cd "folder path"
 
 02-bash: g++ main.cpp myheader.cpp -o main
 
-interpret: g++ mainFile.cpp Header'sCppFile.cpp -o mainFile
+interpret:  g++ (mainFile.cpp) (headerFile.cpp) -o (declare_exeFileName)
 
 
 03-bash: ./main
