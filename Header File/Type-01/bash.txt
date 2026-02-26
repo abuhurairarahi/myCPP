@@ -1,6 +1,6 @@
 for combining all these three file together and run as "main.exe"
 
-01-bash: cd "/workspaces/mycpp/Header File"
+01-bash: cd "/workspaces/mycpp/Header File/Type-01"
 
 interpret: cd "folder path"
 
