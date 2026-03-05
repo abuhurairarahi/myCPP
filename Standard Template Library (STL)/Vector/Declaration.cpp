@@ -53,8 +53,8 @@ int main()
 
 
     //type-05
-    //initialize with capacity
-    vector<int> vector(10);    //capacity = 10
+    //initialize with fixed sized
+    vector<int> vector(10);    //size = 10 && capacity >= 10
 
 
     return 0;
