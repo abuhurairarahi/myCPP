@@ -52,7 +52,7 @@ int main()
     }
 
 
-    //type-05
+    //type-06
     //initialize with fixed sized
     vector<int> vector(10);    //size = 10 && capacity >= 10
 
