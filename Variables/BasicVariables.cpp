@@ -20,7 +20,6 @@ int main()
     Boilerplate CPP:
 
     #include <iostream>
-    #include <vector>
 
     using namespace std;
 
