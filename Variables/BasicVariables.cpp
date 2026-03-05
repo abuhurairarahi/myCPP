@@ -8,9 +8,26 @@ int main()
     const int Uid = 204;
     //"const" identifies the constant; which is fixed & non-changable.
 
-    //Uid = 212; Can't be changed the value id "Uid".
+    // Uid = 212; Can't be changed the value id "Uid".
 
     cout << "Student UID: " << Uid << " has obtained " << Marks << " marks in the exam." << endl;
-    cout << "Congratulations!\n" << endl;
+    cout << "Congratulations!\n"
+         << endl;
     return 0;
+
+    /*
+
+    Boilerplate CPP:
+
+    #include <iostream>
+    #include <vector>
+
+    using namespace std;
+
+    int main()
+    {
+        return 0;
+    }
+
+    */
 }
