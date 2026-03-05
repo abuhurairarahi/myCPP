@@ -36,5 +36,21 @@ int main()
 
     //output: 1 2 3 4 5
 
+    
+    //type-05
+    /* --> initialized a vector with another vector. #here: "vectorFour" is connected with "vectorTwo"
+    if there any changes appears, will reflected into both vector. */
+    vector<char>charvectorOne = {'A', 'S', 'T', 'H', 'A'};
+    vector<char> &charvectorTwo(charvectorOne); 
+
+    charvectorTwo.resize(6);
+    charvectorTwo.insert(charvectorTwo.begin(), 'R');
+
+    for(char charValue : charvectorOne)
+    {
+        cout << charValue;
+    }
+
+
     return 0;
 }
