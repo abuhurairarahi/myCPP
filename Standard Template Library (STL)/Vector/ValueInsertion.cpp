@@ -9,7 +9,7 @@ int main()
     vector<int> vectorOne; //size=0
 
     //type-01 
-    //push_back() : it simply works to push an element from the back of vector.
+    //push_back() : it simply works to add an element from the back.
     vectorOne.push_back(10);
     vectorOne.push_back(20);
     vectorOne.push_back(30);
@@ -25,7 +25,7 @@ int main()
     }
     cout << endl;
 
-    
+
     //type-02
     //insert(iterator, elementValue) : can insert element at any index
 
