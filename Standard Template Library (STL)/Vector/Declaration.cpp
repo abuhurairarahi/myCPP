@@ -51,6 +51,5 @@ int main()
         cout << charValue;
     }
 
-
     return 0;
 }
