@@ -27,13 +27,11 @@ int main()
 
     //type: Iterator approach (applicable for input & output) 
     auto iterate = vectorOne.begin();
-    while(iterate != vectorOne.end())
+    while(iterate < vectorOne.end())  //the last elements is placed on --> (vectorOne.end() - 1)
     {
         cout << *(iterate) << " ";
         iterate += 1;
     }
-
-    //the last elements is placed on --> (vectorOne.end() - 1)
 
     return 0;
 }
