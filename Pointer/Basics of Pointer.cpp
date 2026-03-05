@@ -74,15 +74,13 @@ int main()
     //easytips
     int varOne = 10;
     int &varTwo = varOne; //varTwo holds the address of varOne; #CONNECTED
-    
+
     //changing the value of VarTwo
     varTwo = 20;
     
     cout << "Address of VarOne: " << &varOne << " " << "Address of VarTwo: " << &varTwo << endl; 
     cout << "Value of VarOne: " << varOne << " " << "Value of VarTwo: " << varTwo << endl; 
 
-
-
+    
     return 0;
-
 }
