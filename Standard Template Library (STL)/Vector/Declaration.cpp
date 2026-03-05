@@ -51,5 +51,11 @@ int main()
         cout << charValue;
     }
 
+
+    //type-05
+    //initialize with capacity
+    vector<int> vector(10);    //capacity = 10
+
+
     return 0;
 }
